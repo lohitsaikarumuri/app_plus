@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myprofile"
+        android:title="my profile"
+        android:icon="@drawable/ic_person_black_24dp"></item>
+    <item
+        android:id="@+id/feedback"
+        android:title="feedback"
+        android:icon="@drawable/ic_feedback_black_24dp"></item>
+    <item
+        android:id="@+id/myorders"
+        android:title="My Orders"
+        android:icon="@drawable/ic_thumb_up_black_24dp"></item>
+    <item
+        android:id="@+id/signout"
+        android:title="sign out"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"></item>
+
+
+</menu>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainProfile">
+
+
+        <ImageView
+            android:id="@+id/iv_mainProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/Name_mainProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:hint="Name" />
+                 <TextView
+                 android:id="@+id/nameText"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="8dp"
+                 android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/AadharNo_mainProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:layout_margin="8dp"
+                    android:hint="liscence Number" />
+        <TextView
+            android:id="@+id/AadharText"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/MobileNo_mainProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:hint="Mobile Number" />
+
+        <TextView
+            android:id="@+id/mobileText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:inputType="phone" />
+        <TextView
+            android:id="@+id/address_mainProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Address"
+            android:text="Address" />
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/button_mainProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#57450B"
+                    android:textColor="#FFFFFF"
+                    android:hint="To edit your info."
+                    android:text="Edit" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/actionLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textAlignment="center"
+                    android:text="Do you want to LogOut?" />
+
+
+
+
+
+
+
+</LinearLayout>
